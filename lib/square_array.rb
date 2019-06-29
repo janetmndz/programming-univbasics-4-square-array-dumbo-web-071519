@@ -3,7 +3,8 @@ def square_array(array)
   new_numbers = []
   
   while count < array.size
-    new_numbers << ((array[count]) ** (array[count]))
+    num = array[count]
+    new_numbers << (num ** num)
     count += 1
   end
   p new_numbers
