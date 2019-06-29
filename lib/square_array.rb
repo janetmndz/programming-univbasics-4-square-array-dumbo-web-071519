@@ -7,5 +7,6 @@ def square_array(array)
     new_numbers << (num ** num)
     count += 1
   end
+  
   p new_numbers
 end
